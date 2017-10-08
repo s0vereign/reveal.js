@@ -1,0 +1,44 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/league-gothic/league-gothic.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+// Override theme settings
+//$backgorundColor: #FFFFFF;
+
+// Colors of the HZDR theme
+$white: #FFFFFF;
+$blue: #00589C;
+$orange: #CF6800;
+$dblue: #003E6E;
+$grey1: #515151;
+$grey2: #9C9C9C;
+$grey3: #B9B9B9;
+$struct_matter: #CF6800;
+
+$mainColor: $dblue;
+$headingColor: $blue;
+$backgroundColor: $white;
+$linkColor: $blue;
+$linkColorHover: lighten($blue, 20%);
+$headingTextShadow: none;
+$selectionBackgroundColor: $orange;
+
+
+
+@import "../template/theme"

@@ -286,6 +286,12 @@ body {
 .reveal .controls .navigate-down.enabled:hover {
   border-top-color: #74a7cb; }
 
+body:after {
+  content: url(logo2.png);
+  position: fixed;
+  bottom: 3.5em;
+  right: 3.5em; }
+
 /*********************************************
  * PROGRESS BAR
  *********************************************/
