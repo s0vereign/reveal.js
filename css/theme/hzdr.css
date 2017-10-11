@@ -293,8 +293,8 @@ body:after {
   position: fixed;
   bottom: 5.0em;
   right: 5.0em; 
-  height: 300px;
-  width: 500px;
+  height: 100px;
+  width: 300px;
 }
 /*********************************************
  * PROGRESS BAR
