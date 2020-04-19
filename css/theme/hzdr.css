@@ -289,12 +289,13 @@ body:before{
 }
 
 body:after {
-  content: url(logo2.png);
-  position: fixed;
-  bottom: 5.0em;
-  right: 5.0em; 
-  height: 100px;
-  width: 300px;
+  content: url(logo.png);
+  position: absolute;
+  width: 40%;
+  height: auto;
+  bottom: 0px;
+  left: 0px;
+  z-index: 9999;
 }
 /*********************************************
  * PROGRESS BAR
